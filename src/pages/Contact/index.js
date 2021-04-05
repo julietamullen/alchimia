@@ -46,7 +46,7 @@ const About = () => {
                 <article>
                     <p>We are a group of people that are really passionate about experimenting and learning about the wonders of distillery.</p>
                     <p>Not only drinking, but the fascinating world behind every plant, fruit or flower used in cocktails over the centuries is the magic that pushes us forward and keeps up eager to try new things, and share them with our costumers.</p>
-                    <p>If you have any comment, suggestion, question that you want to send us, or you found a weird botanical book that made you wonder "Who possibly would make a drink using nutmeg?", please contact us using this form! We will get back to you as soon as we can.</p>
+                    <p>If you have any comment, suggestion, question that you want to send us, or you found a weird botanical book that made you wonder "Who possibly would use nutmeg in a cocktail?", please contact us using this form! We will get back to you as soon as we can.</p>
                 </article>
             </div>
             <form action="https://formspree.io/f/xzbybeyb" method="POST">
