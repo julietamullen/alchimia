@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  display: flex;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100vw;
+}
+/* NAVBAR */
+
+nav {
+  min-height: 8vh;
+  background-color: rgb(15, 15, 15, 0.3);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+nav p {
+  font-family: "Prata", Georgia, Times, 'Times New Roman', serif ;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  width: 6rem;
+  opacity: 0.7;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  top: 1.5rem;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#head {
+  font-family:"Prata", Georgia, Times, 'Times New Roman', serif ;
+  width: 100vw;
+  height: 90vh;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 7px 9px 0px rgba(0,0,0,0.2);
+position: relative;
+
+}
+
+#head h1 {
+  text-shadow: 2px 2px 5px rgb(36, 36, 36);
+  font-size: 5rem;
+  font-weight: 100 !important;
+  padding-right: 3rem;
+}
+
+/* HOME */
+blockquote {
+  margin-bottom: 1rem;
+}
+.homeHead {
+  background-image: url("./assets/cocktail1.jpg");
+  opacity: .93;
+  background-size: cover;
+  background-position:100% 80%;
+}
+
+.homeBrief {
+  display: flex;
+  padding: 4rem;
+  width: 80%;
+  margin:auto;
+  position: relative;
+}
+
+.homeBrief h2 {
+  font-weight: 100 !important;
+  width: 50%;
+  text-align: right;
+  padding-right: 3rem;
+  font-size: 3rem;
+  font-family: "Prata", Georgia, Times, 'Times New Roman', serif;
+  border-right: 1px solid black;
+}
+
+.homeBrief article {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3rem
+}
+
+/* COCKTAILS */
+
+.wrapper {
+  max-width: 80%;
+  margin: auto;
+}
+
+.cocktailsHead {
+  background-image: url("./assets/cocktail2.jpg");
+  opacity: .93;
+  background-size: cover;
+  position: relative;
+  background-position:100% 45%;
+  width: 100vw;
+}
+
+.cocktailsContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 3rem;
+  column-gap: 5rem;
+  padding: 3rem;
+  margin:auto;
+  width: 100%;
+}
+
+.category {
+  margin: 1rem;
+  padding-top: 4rem;
+  font-family:"Prata", Georgia, Times, 'Times New Roman', serif ;
+  font-size: 2rem;
+  font-weight: 200 !important;
+  border-bottom: 1px solid black;
+}
+
+/* COCKTAIL */
+
+.cocktail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cocktail img {
+  height: 4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 0.5rem;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+h3 {
+  font-family:"Prata", Georgia, Times, 'Times New Roman', serif ;
+  text-align: left;
+}
+
+.cocktailTitle {
+  width: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cocktailTitle {
+  font-weight: bold;
+}
+/*ABOUT*/
+
+.contactHead {
+  background-image: url("./assets/cocktail3.jpg");
+  opacity: .93;
+  background-size: cover;
+  background-position:100% 20%;
+}
+
+.contact {
+  padding: 3rem;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.contact h2 {
+  font-weight: 100 !important;
+  width: auto;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Prata", Georgia, Times, 'Times New Roman', serif;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+
+.contact article {
+  margin: auto;
+  padding: 2rem 0 2rem 0;
+}
+
+.contact article p {
+  margin-top: 1rem;
+}
+
+.inspiration {
+  margin: auto;
+  width: 50%;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.contact input, textarea {
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: rgb(219, 219, 219);
+  padding: 0.3rem;
+}
+
+.contact label {
+  padding: 0.5rem 0 0.5rem 0;
+  text-align: left;
+}
+
+.contact button {
+  border: 1px solid rgb(90, 90, 90);
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 30%;
+  background-color: transparent;
+  cursor: pointer;
+}
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(27, 27, 27); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 600px) {
+
+  main {
+    max-width: 100vw;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+    background-color: transparent;
+  }
+
+  nav p {
+    padding-bottom: 1rem;
+    opacity: 1;
+  }
+  nav a {
+    opacity: 1;
+  }
+  #head {
+    height: 60vh;
+    max-width: 100%;
+  }
+  #head h1 {
+    font-size: 3rem;
+  }
+
+  .homeBrief {
+    flex-direction: column;
+    width: 90%;
+    padding: 2rem;
+    overflow-x: hidden;
+  }
+
+  .homeBrief h2 {
+    font-weight: 100 !important;
+    width: 100%;
+    text-align: center;
+    padding-right: 0rem;
+    border-bottom: 1px solid black;
+    border-right: 0px;
+  }
+
+  .homeBrief article {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    padding-top: 2rem;
+  }
+
+  .homeHead {
+    background-image: url("./assets/mobile1.jpg");
+    background-position:70% 60%;
+  }
+
+  .wrapper {
+    min-width: 100%;
+  }
+  .cocktailsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin:auto;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .cocktails {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .cocktailsHead {
+    background-image: url("./assets/mobile2.jpg");
+    background-position:60% 45%;
+  }
+
+  .contact {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .contactHead {
+    background-image: url("./assets/mobile3.jpg");
+  }
+  .contact h2 {
+    font-weight: 100 !important;
+    width: auto;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Prata", Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid black;
+    margin: auto;
+  }
+  
+  .contact article {
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+  }
+  
+  .contact article p {
+    margin-top: 1rem;
+  }
+  
+  .inspiration {
+    margin: auto;
+    width: 100%;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .contact input, textarea {
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+    padding: 0.3rem;
+  }
+  
+  .contact label {
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: left;
+  }
+  
+  .contact button {
+    border: 1px solid rgb(90, 90, 90);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 30%;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+
+}
