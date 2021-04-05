@@ -1,8 +1,9 @@
 # About this
 
-## Libraries used
-### Animate on scroll
-### Framer motion
+### Technologies used
+* Animate on scroll
+* Framer Motion
+* react-router-dom
 
 You can see this deployed at: https://alchimia.vercel.app/
 
