@@ -1,7 +1,7 @@
 # About this
 
 ### Technologies used
-* Animate on scroll
+* Animate on Scroll
 * Framer Motion
 * react-router-dom
 
