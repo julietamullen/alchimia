@@ -1,3 +1,14 @@
+# About this
+
+## Libraries used
+### Animate on scroll
+### Framer motion
+
+You can see this deployed at: https://alchimia.vercel.app/
+
+![Deployment Image](/public/img1.png)
+![Deployment Image](/public/img2.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
