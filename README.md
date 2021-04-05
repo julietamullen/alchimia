@@ -21,6 +21,8 @@ You can see this deployed at: https://alchimia.vercel.app/
   * https://www.flaticon.com/free-icon/cocktail_920615?term=cocktail&page=2&position=53&page=2&position=53&related_id=920615&origin=search
   * https://www.flaticon.com/free-icon/cocktail_3187791?term=cocktail&page=1&position=41&page=1&position=41&related_id=3187791&origin=search
   * https://www.flaticon.com/free-icon/cocktail_920627?term=cocktail&page=1&position=80&page=1&position=80&related_id=920627&origin=search
+* Peron Ipsum
+  * https://lorem-peronista.netlify.app/
 
 # Getting Started with Create React App
 
