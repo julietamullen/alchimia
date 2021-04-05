@@ -10,6 +10,18 @@ You can see this deployed at: https://alchimia.vercel.app/
 ![Deployment Image](/public/img1.jpg)
 ![Deployment Image](/public/img2.jpg)
 
+### Resources
+
+* Header images
+  * https://unsplash.com/photos/96EOKC5d200
+  * https://unsplash.com/photos/d0vWjZ2Y4KI
+  * https://unsplash.com/photos/kP8QyKwd1r0
+* Menu icons
+  * https://www.flaticon.com/free-icon/cocktail_3500598?term=cocktail&page=2&position=16&page=2&position=16&related_id=3500598&origin=search
+  * https://www.flaticon.com/free-icon/cocktail_920615?term=cocktail&page=2&position=53&page=2&position=53&related_id=920615&origin=search
+  * https://www.flaticon.com/free-icon/cocktail_3187791?term=cocktail&page=1&position=41&page=1&position=41&related_id=3187791&origin=search
+  * https://www.flaticon.com/free-icon/cocktail_920627?term=cocktail&page=1&position=80&page=1&position=80&related_id=920627&origin=search
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
