@@ -6,8 +6,8 @@
 
 You can see this deployed at: https://alchimia.vercel.app/
 
-![Deployment Image](/public/img1.png)
-![Deployment Image](/public/img2.png)
+![Deployment Image](/public/img1.jpg)
+![Deployment Image](/public/img2.jpg)
 
 # Getting Started with Create React App
 
