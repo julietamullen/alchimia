@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Switch, useLocation} from "react-router-dom"
 import {AnimatePresence} from "framer-motion"
 
-function Aver () {
+function Location () {
   const location = useLocation();
   return (<div style={{position: 'relative'}}>
   <AnimatePresence>
@@ -22,7 +22,7 @@ function Aver () {
 
 ReactDOM.render(
   <Router>
-  <Aver/>
+  <Location/>
   </Router>,
   document.getElementById('root')
 );
